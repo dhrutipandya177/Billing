@@ -1,0 +1,7 @@
+@media only print
+{
+	/* hide every element within the body */
+	body * { display: none !important; }
+	/* add a friendy reminder not to waste paper after the body */
+	body:after { content: "Don't waste paper!"; }
+}
